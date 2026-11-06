@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+.header{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color:cadetblue;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(245, 246, 247);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: azure;
+    color: rgb(101, 190, 186);
+}
+
+.footer{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+/* style pada table */
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td{
+    padding: 8px;
+}
+tr{
+    background-color:rgb(255, 247, 205);
+}
+tr:nth-child(even){
+    background-color: rgb(254, 223, 255);
+}
+tr:hover{
+    background-color: rgb(215, 239, 240);
+}

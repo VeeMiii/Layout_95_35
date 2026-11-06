@@ -1,0 +1,36 @@
+body {
+margin: 0;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 25%;
+background-color: antiquewhite;
+position: fixed;
+height: 100%;
+border: 1px solid rgb(32, 22, 3);
+}
+
+li a {
+display: block;
+color: rgb(87, 62, 9);
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li {
+text-align: center;
+border-bottom: 1px solid rgb(37, 23, 2);
+}
+
+li a.active {
+background-color: burlywood;
+color: rgb(65, 44, 12);
+}
+
+li a:hover:not(.active) {
+background-color: honeydew;
+color: rgb(77, 53, 8);
+}
